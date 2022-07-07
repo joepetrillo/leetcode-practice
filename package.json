@@ -1,0 +1,13 @@
+{
+  "name": "leetcode-typescript-practice",
+  "version": "1.0.0",
+  "description": "Leetcode problems in Typescript",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "Joe Petrillo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
