@@ -1,4 +1,4 @@
-function longestPalindrome(s: string): number {
+export function longestPalindrome(s: string): number {
   const letterCounts: Record<string, number> = {};
   let length: number = 0;
 

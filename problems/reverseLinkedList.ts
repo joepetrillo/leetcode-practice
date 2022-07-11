@@ -7,7 +7,7 @@ class ListNode {
   }
 }
 
-function reverseList(head: ListNode | null): ListNode | null {
+export function reverseList(head: ListNode | null): ListNode | null {
   let newListHead: ListNode | null = null;
 
   while (head !== null) {

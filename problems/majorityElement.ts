@@ -1,4 +1,4 @@
-function majorityElement(nums: number[]): number | null {
+export function majorityElement(nums: number[]): number | null {
   const majorityAmount = Math.floor(nums.length / 2); // need to find element that appears MORE than this
 
   const counts: Record<string, number> = {};
